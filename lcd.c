@@ -48,15 +48,8 @@ void lcdInit(){
 	lcdWait();	
 	
 }
-//Crystal: 24 MHz
-//2400: FF C8
-//4800: FF 64
-//9600: FF B2
-//19200: FF D9
-//57600: FF F3
 
 #define BACKLIGHT P3_1
-
 
 int main(){
 	lcdInit();
